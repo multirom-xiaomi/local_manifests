@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--Begin MultiRom-->
+  <remove-project name="android_bootable_recovery" />
+  <project name="nkk71/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-7.1-mrom" />
+  <project name="MR-op3/multirom" path="system/extras/multirom" remote="github" revision="mr-7.0" />
+  <project name="MR-op3/kexec-tools" path="system/extras/multirom/kexec-tools" remote="github" revision="master" />
+  <project name="Tasssadar/libbootimg" path="system/extras/libbootimg" remote="github" revision="master" />
+  <project name="multirom-xiaomi/multirom_adbd" path="system/extras/multirom/adbd" remote="github" revision="master" />
+<!--End MultiRom-->
+
+<!--Begin Qcom Common-->
+  <project name="TeamWin/android_device_qcom_common" path="device/qcom/common" remote="github" revision="android-6.0" />
+<!--End Qcom Common-->
+
+<!--Begin kenzo-->
+  <project name="LineageOS/android_kernel_xiaomi_msm8956" path="kernel/xiaomi/kenzo" remote="github" revision="cm-14.1" />
+  <project name="multirom-xiaomi/android_device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="github" revision="mrom" />
+<!--End kenzo-->
+
+<!--Begin mido-->
+  <project name="TheScarastic/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/mido" remote="github" revision="cm-14.1" />
+  <project name="multirom-xiaomi/android_device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="mrom" />
+<!--End mido-->
+
+</manifest>
+
