@@ -20,7 +20,6 @@
 <!--End kenzo-->
 
 <!--Begin mido-->
-  <project name="TheScarastic/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/mido" remote="github" revision="cm-14.1" />
   <project name="multirom-xiaomi/android_device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="mrom" />
 <!--End mido-->
 
